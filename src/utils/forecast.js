@@ -9,7 +9,7 @@ const forecast = (latitude, longitude, callback) => {
         } else if (body.error) {
             callback('Unable to find location!', undefined)
         } else {
-            callback(undefined, `${body.current.weather_descriptions}，目前溫度: ${body.current.temperature}，體感溫度: ${body.current.feelslike}`)
+            callback(undefined, `${body.current.weather_descriptions}, 目前溫度: ${body.current.temperature}, 體感溫度: ${body.current.feelslike}, 濕度: ${body.current.humidity}%`)
         }
 
     });
