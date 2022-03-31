@@ -3,4 +3,4 @@
 <https://chenghung-weather-application.herokuapp.com/>
 
 ![image](https://github.com/ChiangChengHung/Weather-website/blob/main/weather1.png)
-![image](https://github.com/ChiangChengHung/Weather-website/blob/main/weather2.png)
+
